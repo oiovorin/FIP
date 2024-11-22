@@ -161,14 +161,14 @@ textarea {
 
 /* 4. ---Main Hero Image Contact--- */
 
-.fas {
+.fa-thin {
   font-size: 42px;
   color: #9a2018;
   margin: 0 auto;
   float: left;
 }
 
-.fa-mobile-alt {
+.fa-bed {
   margin-right: 10px;
   margin-left: 3px;
   margin-bottom: 20px;

@@ -153,31 +153,6 @@ textarea {
   padding-top: 20px;
 }
 
-/* 6. ---About & FAQ--- */
-
-#about-hero-con {
-  background: url(../images/about-us-hero.jpg) no-repeat;
-  height: 195px;
-}
-
-#about-hero-heading-box {
-  align-self: end;
-}
-
-#about-us-text {
-  padding-bottom: 60px;
-}
-
-#about-us-text p {
-  font-size: 14px;
-  margin-bottom: 20px;
-  line-height: 22px;
-}
-
-#about-us-text-column2 {
-  font-style: italic;
-}
-
 #faq-con {
   background-color: #f4f4f4;
   padding-top: 35px;
@@ -223,6 +198,47 @@ textarea {
 #faq-text-con {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+/* Intoro Room style */
+.room-con h2 {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.room-con .further-info {
+  border: 1px solid #626262;
+  padding: 12px;
+  text-align: center;
+}
+
+.room-con .room-f-con {
+  display: flex;
+  max-width: 412px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.room-con .room-f-item1,
+.room-con .room-f-item2,
+.room-con .room-f-item3 {
+  border: 1px solid beige;
+  margin: 0 40px 40px 40px;
+  text-align: center;
+}
+.room-con .room-f-item4 {
+  border: 1px solid beige;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.fa-solid {
+  font-size: 40px;
+  margin: 10px;
 }
 
 /* 8. ---Footer--- */
