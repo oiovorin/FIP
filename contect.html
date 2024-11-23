@@ -58,7 +58,7 @@
       </section>
     </section>
     <div id="contact-form" class="grid-con">
-      <section class="col-span-full">
+      <section class="col-span-full line-separator">
         <form action="your-server-endpoint" method="post" enctype="text/plain">
           <label>NAME</label>
           <input name="fullName" type="text" required placeholder="Full name" />
@@ -88,31 +88,100 @@
             placeholder="leave your message here."
             required
           ></textarea>
-          <input name="submit" type="submit" value="Send" />
+          <input name="submit" type="submit" value="SEND MESSAGE" />
         </form>
       </section>
     </div>
 
-    <div id="contact-info" class="grid-con">
+    <!--<div class="grid-con">
       <section class="col-span-full">
-        <!-- add google map here -->
-        <div>
-          <h3>Adress</h3>
-          <p>
-            1198 Osprey Rd, (End of)<br />
-            Minden, Soyers Lake, ON, <br />
-            K0M 2K0
-          </p>
+         add google map here 
+        <div class="contact-info">
+          <div class="contact-icon">
+            <img src="images/locator.svg" alt="icon of location" />
+          </div>
+          <div>
+            <h3>Adress</h3>
+            <p>
+              1198 Osprey Rd, (End of)<br />
+              Minden, Soyers Lake, ON, <br />
+              K0M 2K0
+            </p>
+          </div>
         </div>
 
-        <div>
-          <h3>Phone</h3>
-          <p>+1 877 201-1156</p>
+        <div class="contact-info">
+          <div class="contact-icon">
+            <img src="images/phone.svg" alt="icon of phone" />
+          </div>
+          <div>
+            <h3>Phone</h3>
+            <p>+1 877 201-1156</p>
+          </div>
         </div>
 
-        <div>
-          <h3>Email</h3>
-          <p>info@coupleresort.com</p>
+        <div class="contact-info">
+          <div class="contact-icon">
+            <img src="images/email.svg" alt="icon of email" />
+          </div>
+          <div>
+            <h3>Email</h3>
+            <p>info@coupleresort.com</p>
+          </div>
+        </div>
+      </section>
+    </div>-->
+
+    <div class="grid-con">
+      <section class="col-start-1 col-span-1">
+        <div id="icon-con">
+          <div>
+            <img
+              src="images/locator.svg"
+              alt="icon of location"
+              width="50"
+              height="50"
+            />
+          </div>
+          <div>
+            <img
+              src="images/phone.svg"
+              alt="icon of phone"
+              width="45"
+              height="45"
+            />
+          </div>
+          <div>
+            <img
+              src="images/email.svg"
+              alt="icon of email"
+              width="50"
+              height="50"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="col-start-2 col-span-2">
+        <div id="contact-text-con">
+          <div>
+            <h3>Address</h3>
+            <p>
+              1198 Osprey Rd, (End of)<br />
+              Minden, Soyers Lake, ON, <br />
+              K0M 2K0
+            </p>
+          </div>
+
+          <div>
+            <h3>Phone</h3>
+            <p>+1 877 201-1156</p>
+          </div>
+
+          <div>
+            <h3>Email</h3>
+            <p>info@coupleresort.com</p>
+          </div>
         </div>
       </section>
     </div>
