@@ -9,11 +9,8 @@ Couples Resort Responsive Build
     1.  General Styles
     2.  Main Nav
     3.  Main Hero Image
-    4.  Main Hero Image Contact
-    5.  Why Couples Resort
-    6.  About & FAQ
-    7.  Contact Form
-    8.  Footer 
+    4.  Intoro for rooms
+    5.  Footer 
  */
 
 /* 1. ---General Styles--- */
@@ -105,7 +102,7 @@ textarea {
 /* 3. ---Main Hero Image--- */
 
 #hero {
-  background: url(../images/hero-main.jpg) no-repeat;
+  background: url(../images/mob_room_hero-01.jpg) no-repeat;
   height: 200px;
 }
 
@@ -139,6 +136,7 @@ textarea {
   background: rgb(255, 255, 255);
   padding: 10px 15px;
   font-size: 14px;
+  font-weight: bold;
 }
 
 .hero-img-h2 span,
@@ -153,92 +151,57 @@ textarea {
   padding-top: 20px;
 }
 
-#faq-con {
-  background-color: #f4f4f4;
-  padding-top: 35px;
-  padding-bottom: 30px;
+#hero-summary {
+  margin-bottom: 50px;
 }
 
-#faq-con h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-#faq-con h2 span {
-  color: #9a2018;
-  font-size: 16px;
-}
-
-.faq-items {
-  margin-bottom: 16px;
-}
-
-.faq-items h3 {
-  background: #e8e7e7;
-  padding: 16px;
-  font-size: 16px;
-}
-
-.faq-items ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.faq-items li {
-  padding: 8px 0;
-  border-bottom: 1px solid #9a2018;
-}
-
-.faq-items a {
-  color: inherit;
-  font-size: 13px;
-}
-
-#faq-text-con {
-  margin-top: 20px;
-  margin-bottom: 20px;
+#hero-summary p {
+  font-size: 14px;
 }
 
 /* Intoro Room style */
-.room-con h2 {
-  font-size: 25px;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 40px;
+.room-con {
+  display: block;
+  margin: 35px auto;
 }
 
-.room-con .further-info {
-  border: 1px solid #626262;
-  padding: 12px;
-  text-align: center;
-}
-
-.room-con .room-f-con {
+.room-con img {
   display: flex;
-  max-width: 412px;
-  flex-wrap: wrap;
-  margin-bottom: 50px;
-  justify-content: center;
   align-items: center;
 }
 
-.room-con .room-f-item1,
-.room-con .room-f-item2,
-.room-con .room-f-item3 {
-  border: 1px solid beige;
-  margin: 0 40px 40px 40px;
-  text-align: center;
-}
-.room-con .room-f-item4 {
-  border: 1px solid beige;
-  margin: 0 20px;
-  text-align: center;
+.room-con:first-child {
+  margin-top: 0;
 }
 
-.fa-solid {
-  font-size: 40px;
-  margin: 10px;
+.room-con h2 {
+  color: #cf6666;
+  text-align: center;
+  margin: 10px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+.room-con p span {
+  display: block;
+  font-size: 13px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.room-con .book-now {
+  width: 277px;
+  height: 50px;
+  margin: 10px auto;
+}
+
+.room-con a {
+  display: block;
+  color: #cf6666;
+  letter-spacing: 2px;
+  text-align: center;
 }
 
 /* 8. ---Footer--- */
