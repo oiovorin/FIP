@@ -1,0 +1,93 @@
+#hero {
+  background: url(../images/mob_contact_hero-01.jpg) no-repeat;
+  height: 200px;
+}
+
+#contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form input,
+textarea,
+select {
+  padding: 15px;
+  border: 1px solid #9a2018;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font: inherit;
+  width: auto;
+}
+
+#contact-form textarea {
+  height: 250px;
+}
+
+#subject {
+  color: #626262;
+}
+
+#contact-form input[type="submit"] {
+  padding: 12px 28px;
+  background: #9a2018;
+  color: #fff;
+  border: none;
+  transition: all 200ms ease-in;
+  width: 215px;
+  align-self: flex-end;
+}
+
+#contact-form input[type="submit"]:hover {
+  background-color: #626262;
+  border-radius: 0;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: 120px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  padding-left: 50px;
+}
+
+.contact-info p {
+  font-size: 14px;
+}
+
+#icon-con,
+#contact-text-con {
+  display: flex;
+  flex-direction: column;
+}
+
+#icon-con div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#contact-text-con h3 {
+  font-size: 17px;
+}
+
+#contact-text-con p {
+  font-size: 13px;
+}
+
+#contact-text-con div {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#contact-text-con div:last-child {
+  margin-top: 40px;
+}
