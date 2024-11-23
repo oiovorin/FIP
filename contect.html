@@ -9,13 +9,13 @@
       rel="stylesheet"
     />
     <script
-      src="https://kit.fontawesome.com/ae48f0d78a.js"
+      src="https://kit.fontawesome.com/d0e8431583.js"
       crossorigin="anonymous"
     ></script>
     <link href="css/grid.css" rel="stylesheet" type="text/css" />
     <link href="css/main.css" rel="stylesheet" type="text/css" />
-    <link href="css/Compare-RM.css" rel="stylesheet" type="text/css" />
-    <title>Welcome to The Couples Resort</title>
+    <link href="css/contact.css" rel="stylesheet" type="text/css" />
+    <title>Welcome to The Couples Resort COntact Page</title>
   </head>
   <body>
     <h1 class="hidden">Welcome to The Couples Resort</h1>
@@ -44,7 +44,7 @@
         <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo" />
       </div>
     </header>
-
+    <!-- Main Hero -->
     <section id="hero" class="grid-con">
       <h2 class="hidden">Book a stay with us</h2>
       <div id="book-now-hero" class="book-now col-start-3 col-span-2">
@@ -53,74 +53,70 @@
       <section id="hero-heading-box" class="col-span-full">
         <h2 class="hero-img-h2">
           <span>Couples Resort</span><br />
-          5 Star, Luxury Couples Resort &amp; Spa
+          Contact
         </h2>
       </section>
     </section>
-
-    <div class="grid-con">
-      <section id="hero-summary" class="col-span-full line-separator">
-        <h2 class="hidden">Summary of our Facilities</h2>
-        <p>
-          Stay in a luxurious European-style chateau with a private gazebo,
-          balcony, and hot tub, overlooking Galeairy Lake and the forests of
-          Algonquin Park. Enjoy breathtaking views and ultimate relaxation.
-        </p>
+    <div id="contact-form" class="grid-con">
+      <section class="col-span-full">
+        <form action="your-server-endpoint" method="post" enctype="text/plain">
+          <label>NAME</label>
+          <input name="fullName" type="text" required placeholder="Full name" />
+          <label>EMAIL</label>
+          <input
+            name="contactInfo"
+            type="email"
+            required
+            placeholder="Email address"
+          />
+          <label>PHONE</label>
+          <input name="phone" type="tel" required placeholder="Phone number" />
+          <label for="subject">SUBJECT</label>
+          <select id="subject" name="subject" required>
+            <option value="" disabled selected>Select your subject</option>
+            <option value="reservations">Reservations</option>
+            <option value="dining-options">Dining Options</option>
+            <option value="accessibility">Accessibility Information</option>
+            <option value="feedback">Share Feedback on Stay</option>
+            <option value="lost-and-found">Lost and Found</option>
+            <option value="other">Others</option>
+          </select>
+          <label for="message">MESSAGE</label>
+          <textarea
+            id="message"
+            name="msg"
+            placeholder="leave your message here."
+            required
+          ></textarea>
+          <input name="submit" type="submit" value="Send" />
+        </form>
       </section>
     </div>
 
-    <!-- intoro of rooms -->
-    <div class="grid-con">
-      <section class="room-con col-span-full">
-        <img src="images/mob_room_gal-01.jpg" alt="room image for chateaus" />
-        <h2>CHATEAUS</h2>
-        <p><span>Private Screened in Gazebo</span></p>
-        <div class="book-now"><p>Book Now</p></div>
-        <a href="#">VIEW ROOM →</a>
-      </section>
+    <div id="contact-info" class="grid-con">
+      <section class="col-span-full">
+        <!-- add google map here -->
+        <div>
+          <h3>Adress</h3>
+          <p>
+            1198 Osprey Rd, (End of)<br />
+            Minden, Soyers Lake, ON, <br />
+            K0M 2K0
+          </p>
+        </div>
 
-      <section class="room-con col-span-full">
-        <img src="images/mob_room_gal-03.jpg" alt="room image for villas" />
-        <h2>MASTERS</h2>
-        <p><span>Private Outdoor Hot Tub</span></p>
-        <div class="book-now"><p>Book Now</p></div>
-        <a href="#">VIEW ROOM →</a>
-      </section>
+        <div>
+          <h3>Phone</h3>
+          <p>+1 877 201-1156</p>
+        </div>
 
-      <section class="room-con col-span-full">
-        <img src="images/mob_room_gal-04.jpg" alt="room image for villas" />
-        <h2>EXOTICS</h2>
-        <p><span>Dreams of Romantic Escape</span></p>
-        <div class="book-now"><p>Book Now</p></div>
-        <a href="#">VIEW ROOM →</a>
-      </section>
-
-      <section class="room-con col-span-full">
-        <img src="images/mob_room_gal-05.jpg" alt="room image for villas" />
-        <h2>CHALETS</h2>
-        <p><span>Canadian Cabins</span></p>
-        <div class="book-now"><p>Book Now</p></div>
-        <a href="#">VIEW ROOM →</a>
-      </section>
-
-      <section class="room-con col-span-full">
-        <img src="images/mob_room_gal-06.jpg" alt="room image for villas" />
-        <h2>JUNIORS</h2>
-        <p><span>The Best Waterfront Viewing</span></p>
-        <div class="book-now"><p>Book Now</p></div>
-        <a href="#">VIEW ROOM →</a>
-      </section>
-
-      <section class="room-con col-span-full">
-        <img src="images/mob_room_gal-02.jpg" alt="room image for villas" />
-        <h2>VILLAS</h2>
-        <p><span>The Best Waterfront Viewing</span></p>
-        <div class="book-now"><p>Book Now</p></div>
-        <a href="#">VIEW ROOM →</a>
+        <div>
+          <h3>Email</h3>
+          <p>info@coupleresort.com</p>
+        </div>
       </section>
     </div>
 
-    <!-- Footer -->
     <footer id="footer-hero" class="grid-con">
       <section id="footer-contact-info" class="col-span-full">
         <h3>Couples Resort</h3>
