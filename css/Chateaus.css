@@ -1,0 +1,60 @@
+#chateaus-hero h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #c54242;
+}
+
+#chateaus-hero p {
+  font-size: 13px;
+}
+
+#chateaus-feature {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  border-top: 1px solid #c54242;
+  border-bottom: 1px solid #c54242;
+  padding: 10px 0;
+}
+#chateaus-feature div {
+  width: 120.66px;
+  text-align: center;
+  border-right: 1px solid #c54242;
+}
+
+#chateaus-feature div:last-child {
+  border: 0;
+}
+
+#chateaus-feature span {
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #c54242;
+}
+
+#chateaus-feature p {
+  font-size: 12px;
+}
+
+#book-now {
+  height: 50px;
+}
+
+#equipments h3 {
+  margin-top: 50px;
+  padding-left: 5px;
+  border-left: 3px solid #9a2018;
+}
+
+.equipments-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.equipments-list ul li {
+  margin: 10px;
+}
