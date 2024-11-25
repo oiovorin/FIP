@@ -56,6 +56,16 @@ input[type="checkbox"]:checked + span::after {
   border-radius: 0;
 }
 
+#contact-form input[type="submit"]:active {
+  animation: click 0.3s ease 1;
+}
+
+@keyframes click {
+  50% {
+    transform: scale(70%);
+  }
+}
+
 .contact-info {
   display: flex;
   flex-wrap: wrap;
