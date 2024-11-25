@@ -8,6 +8,11 @@
   flex-direction: column;
 }
 
+#contact-form label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
 #contact-form input,
 textarea,
 select {
@@ -74,6 +79,11 @@ input[type="checkbox"]:checked + span::after {
   box-sizing: 120px;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+iframe {
+  display: flex;
+  align-items: center;
 }
 
 .contact-icon {
