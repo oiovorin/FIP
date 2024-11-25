@@ -58,3 +58,21 @@
 .equipments-list ul li {
   margin: 10px;
 }
+
+#gallary img {
+  margin: 10px auto;
+}
+
+#arrow {
+  display: flex;
+  justify-content: end;
+  margin: 10px 20px;
+}
+
+#arrow div {
+  margin: 0 10px;
+  color: #9a2018;
+  border: 1px solid #9a2018;
+  border-radius: 500px;
+  padding: 4px 7px;
+}
