@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.91 62.73">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #626262;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_4" data-name="レイヤー 4">
+    <g>
+      <g>
+        <polyline class="cls-1" points="61.91 40.88 61.91 10.73 35 1 8 10.73 8 44.73 34 54.73"/>
+        <polyline class="cls-1" points="13 38.73 13 21.64 21 18.73 21 35.98"/>
+        <polyline class="cls-1" points="35 55.03 61 44.73 35 35.11 35 4.73"/>
+        <line class="cls-1" x1="8" y1="44.73" x2="35" y2="35.11"/>
+        <line class="cls-1" x1="21.5" y1="49.92" x2="48" y2="40.28"/>
+        <line class="cls-1" x1="21.5" y1="39.92" x2="47.9" y2="49.92"/>
+      </g>
+      <line class="cls-1" x1="2" y1="11.73" x2="2" y2="47.92"/>
+      <line class="cls-1" x1="6" y1="51.73" x2="32" y2="60.73"/>
+      <line class="cls-1" x1="3" y1="48.73" x2="1" y2="48.73"/>
+      <line class="cls-1" x1="3" y1="11.73" x2="1" y2="11.73"/>
+      <line class="cls-1" x1="6" y1="52.73" x2="6" y2="50.73"/>
+      <line class="cls-1" x1="32" y1="61.73" x2="32" y2="59.73"/>
+    </g>
+  </g>
+</svg>
