@@ -8,6 +8,11 @@
   flex-direction: column;
 }
 
+#contact-form label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
 #contact-form input,
 textarea,
 select {
@@ -56,6 +61,16 @@ input[type="checkbox"]:checked + span::after {
   border-radius: 0;
 }
 
+#contact-form input[type="submit"]:active {
+  animation: click 0.3s ease 1;
+}
+
+@keyframes click {
+  50% {
+    transform: scale(70%);
+  }
+}
+
 .contact-info {
   display: flex;
   flex-wrap: wrap;
@@ -64,6 +79,11 @@ input[type="checkbox"]:checked + span::after {
   box-sizing: 120px;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+iframe {
+  display: flex;
+  align-items: center;
 }
 
 .contact-icon {
