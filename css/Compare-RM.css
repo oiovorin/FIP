@@ -49,10 +49,6 @@
   padding-top: 20px;
 }
 
-#hero-summary {
-  margin-bottom: 50px;
-}
-
 #hero-summary p {
   font-size: 14px;
 }
@@ -60,12 +56,19 @@
 /* Intoro Room style */
 .room-con {
   display: block;
-  margin: 35px auto;
+  margin-top: 35px;
 }
 
 .room-con img {
   display: flex;
   align-items: center;
+  padding: 30px 16px 0 16px;
+}
+
+#room-list section:nth-child(even) {
+  background-color: #fef8e9;
+  height: 450px;
+  width: 412px;
 }
 
 .room-con:first-child {

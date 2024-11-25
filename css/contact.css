@@ -33,6 +33,19 @@ select {
   color: #626262;
 }
 
+.check input {
+  display: inline;
+}
+
+.check label {
+  font-size: 12px;
+}
+
+input[type="checkbox"]:checked + span::after {
+  content: "⭐";
+  margin-left: 5px;
+}
+
 #contact-form input[type="submit"] {
   padding: 12px 28px;
   background: #9a2018;
@@ -46,6 +59,16 @@ select {
 #contact-form input[type="submit"]:hover {
   background-color: #626262;
   border-radius: 0;
+}
+
+#contact-form input[type="submit"]:active {
+  animation: click 0.3s ease 1;
+}
+
+@keyframes click {
+  50% {
+    transform: scale(70%);
+  }
 }
 
 .contact-info {
@@ -81,8 +104,11 @@ iframe {
 }
 
 #icon-con div {
+  display: flex;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  padding-left: 40px;
+  justify-content: center;
 }
 
 #contact-text-con h3 {
@@ -94,6 +120,8 @@ iframe {
 }
 
 #contact-text-con div {
+  display: flex;
+  flex-direction: column;
   margin-top: 15px;
   margin-bottom: 15px;
 }

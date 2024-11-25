@@ -19,130 +19,154 @@
     <title>Welcome to The Couples Resort</title>
   </head>
   <body>
-    <h1 class="hidden">Welcome to The Couples Resort</h1>
-    <!-- Main Nav -->
-    <header class="grid-con" id="main-header">
-      <nav id="main-nav" class="col-span-full">
-        <h2 class="hidden">Main Navigation</h2>
+    <div id="mobile-outline">
+      <h1 class="hidden">Welcome to The Couples Resort</h1>
+      <!-- Main Nav -->
+      <header class="grid-con" id="main-header">
+        <nav id="main-nav" class="col-span-full">
+          <h2 class="hidden">Main Navigation</h2>
 
-        <input type="checkbox" id="hamburger" />
-        <label for="hamburger">
-          <img src="images/burger.svg" alt="hamburger menu icon" />
-        </label>
+          <input type="checkbox" id="hamburger" />
+          <label for="hamburger">
+            <img src="images/burger.svg" alt="hamburger menu icon" />
+          </label>
 
-        <div id="burger-con">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Rooms</a></li>
-            <li><a href="#">Packages</a></li>
-            <li><a class="selected" href="dining.html">Dining</a></li>
-            <li><a href="#">Spa Activites</a></li>
-            <li><a href="#">Reservations</a></li>
-          </ul>
+          <div id="burger-con">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Rooms</a></li>
+              <li><a href="#">Packages</a></li>
+              <li><a class="selected" href="dining.html">Dining</a></li>
+              <li><a href="#">Spa Activites</a></li>
+              <li><a href="#">Reservations</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div id="logo" class="col-span-full">
+          <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo" />
         </div>
-      </nav>
-      <div id="logo" class="col-span-full">
-        <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo" />
+      </header>
+      <!-- Main Hero -->
+      <div id="hero-image-slide" class="grid-con">
+        <section id="chateaus-hero" class="col-span-full">
+          <img src="images/mob_chateaus-01.jpg" alt="hero image of chateaus" />
+          <h2>Chateaus</h2>
+          <p>Private gazebo and balcony with lake view</p>
+        </section>
       </div>
-    </header>
-    <!-- Main Hero -->
-    <div id="hero-image-slide" class="grid-con">
-      <section id="chateaus-hero" class="col-span-full">
-        <img src="images/mob_chateaus-01.jpg" alt="hero image of chateaus" />
-        <h2>Chateaus</h2>
-        <p>Private gazebo and balcony with lake view</p>
-      </section>
-    </div>
 
-    <div class="grid-con">
-      <section id="hero-summary" class="col-span-full line-separator">
-        <h2 class="hidden">Summary of our Facilities</h2>
-        <p>
-          Stay in a luxurious European-style chateaus<br />
-          with a private gazebo, balcony, and hot tub, overlooking<br />
-          Galeairy Lake and the forests of Algonquin Park.
-          <br />
-          Enjoy breathtaking views and ultimate relaxation.
-        </p>
-      </section>
-    </div>
-
-    <div class="grid-con">
-      <section id="chateaus-feature" class="col-span-full">
-        <h2 class="hidden">3 main features</h2>
-        <div>
+      <div class="grid-con">
+        <section id="hero-summary" class="col-span-full line-separator">
+          <h2 class="hidden">Summary of our Facilities</h2>
           <p>
-            <span>130㎡</span><br />
-            1400 SQ. FT.
+            Stay in a luxurious European-style chateaus<br />
+            with a private gazebo, balcony, and hot tub, overlooking<br />
+            Galeairy Lake and the forests of Algonquin Park.
+            <br />
+            Enjoy breathtaking views and ultimate relaxation.
+          </p>
+        </section>
+      </div>
+
+      <div class="grid-con">
+        <section id="chateaus-feature" class="col-span-full">
+          <h2 class="hidden">3 main features</h2>
+          <div>
+            <img
+              src="images/Roomwidth.svg"
+              alt="blueprint of room"
+              width="60"
+              height="40"
+            />
+            <p>1400 SQ. FT.</p>
+          </div>
+          <div>
+            <img
+              src="images/Gazebo.svg"
+              alt="icon of Gazebo"
+              width="60"
+              height="40"
+            />
+            <p>PRIVATE GAZEBO</p>
+          </div>
+          <div>
+            <img
+              src="images/Fireplace.svg"
+              alt="icon of Fireplace"
+              width="60"
+              height="40"
+            />
+            <p>2 SIDED FIREPLACE</p>
+          </div>
+        </section>
+        <div id="book-now" class="book-now col-start-2 col-span-2">
+          <p>Book Now</p>
+        </div>
+      </div>
+
+      <div class="grid-con">
+        <section id="equipments" class="col-span-full">
+          <h3>Equipments</h3>
+          <div class="equipments-list col-span-full">
+            <ul id="list-left">
+              <li>King Size Bed</li>
+              <li>Fireplace</li>
+              <li>Sauna</li>
+            </ul>
+            <ul id="list-right">
+              <li>Private Cabin</li>
+              <li>Coffee Maker</li>
+              <li>50 Inch TV</li>
+            </ul>
+          </div>
+
+          <p>SHOW MORE ↓</p>
+        </section>
+      </div>
+      <div class="grid-con">
+        <section id="hero-heading-box" class="col-span-full">
+          <h2 class="hero-img-h2">
+            <span>Couples Resort</span><br />
+            Other Rooms
+          </h2>
+        </section>
+
+        <section id="gallary" class="col-span-full">
+          <img src="images/mob_gal-01.jpg" alt="hero photo of villas" />
+          <div id="arrow">
+            <div><p>←</p></div>
+            <div><p>→</p></div>
+          </div>
+        </section>
+      </div>
+      <!-- now the arrow is on the image -->
+
+      <footer id="footer-hero" class="grid-con">
+        <section id="footer-contact-info" class="col-span-full">
+          <h3>Couples Resort</h3>
+          <p>
+            1198 Osprey Rd, (End of)<br />
+            Minden, Soyers Lake, ON, <br />
+            K0M 2K0
+          </p>
+          <p>
+            Toll Free:+1 877 201-1156<br />
+            FAX:+1 613 638 2217<br />
+            E-mail: info@coupleresort.com
+          </p>
+        </section>
+        <div id="footer-privacy" class="col-span-full line-separator">
+          <p id="price-policy">
+            All prices and services on this website and in our reservation
+            system are based on conditions at the time of publishing and are
+            subject to change. Please call to confirm services, availability and
+            pricing. ©2013 Couples Resort Inc. All Rights Reserved. Privacy
+            Policy
           </p>
         </div>
-        <div><p>PRIVATE GAZEBO</p></div>
-        <div><p>2 SIDED FIREPLACE</p></div>
-      </section>
-      <div id="book-now" class="book-now col-start-2 col-span-2">
-        <p>Book Now</p>
-      </div>
+      </footer>
+
+      <script src="js/main.js"></script>
     </div>
-
-    <div class="grid-con">
-      <section id="equipments" class="col-span-full">
-        <h3>Equipments</h3>
-        <div class="equipments-list col-span-full">
-          <ul id="list-left">
-            <li>King Size Bed</li>
-            <li>Fireplace</li>
-            <li>Sauna</li>
-          </ul>
-          <ul id="list-right">
-            <li>Private Cabin</li>
-            <li>Coffee Maker</li>
-            <li>50 Inch TV</li>
-          </ul>
-        </div>
-      </section>
-    </div>
-    <div class="grid-con">
-      <section id="hero-heading-box" class="col-span-full">
-        <h2 class="hero-img-h2">
-          <span>Couples Resort</span><br />
-          Other Rooms
-        </h2>
-      </section>
-
-      <section id="gallary" class="col-span-full">
-        <img src="images/mob_gal-01.jpg" alt="hero photo of villas" />
-        <div id="arrow">
-          <div><p>←</p></div>
-          <div><p>→</p></div>
-        </div>
-      </section>
-    </div>
-    <!-- now the arrow is on the image -->
-
-    <footer id="footer-hero" class="grid-con">
-      <section id="footer-contact-info" class="col-span-full">
-        <h3>Couples Resort</h3>
-        <p>
-          1198 Osprey Rd, (End of)<br />
-          Minden, Soyers Lake, ON, <br />
-          K0M 2K0
-        </p>
-        <p>
-          Toll Free:+1 877 201-1156<br />
-          FAX:+1 613 638 2217<br />
-          E-mail: info@coupleresort.com
-        </p>
-      </section>
-      <div id="footer-privacy" class="col-span-full line-separator">
-        <p id="price-policy">
-          All prices and services on this website and in our reservation system
-          are based on conditions at the time of publishing and are subject to
-          change. Please call to confirm services, availability and pricing.
-          ©2013 Couples Resort Inc. All Rights Reserved. Privacy Policy
-        </p>
-      </div>
-    </footer>
-
-    <script src="js/main.js"></script>
   </body>
 </html>
