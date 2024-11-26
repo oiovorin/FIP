@@ -4,55 +4,6 @@
   background: url(../images/mob_room_hero-01.jpg) no-repeat;
 }
 
-.book-now {
-  background-color: #9a2018;
-  color: #fff;
-  font-size: 16px;
-  transition: background-color 500ms linear;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-style: italic;
-  transition: all 0.3s ease;
-  cursor: pointer;
-}
-
-.book-now:hover {
-  background-color: rgb(196, 28, 28);
-}
-
-#book-now-hero {
-  height: 67px;
-}
-
-#hero-heading-box {
-  align-self: end;
-}
-
-.hero-img-h2,
-.hero-img-h3 {
-  background: rgb(255, 255, 255);
-  padding: 10px 15px;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.hero-img-h2 span,
-.hero-img-h3 span {
-  color: #9a2018;
-  font-size: 12px;
-}
-
-.line-separator {
-  margin-top: 20px;
-  border-top: solid 3px #cf6666;
-  padding-top: 20px;
-}
-
-#hero-summary p {
-  font-size: 14px;
-}
-
 /* Intoro Room style */
 .room-con {
   margin-top: 50px;
