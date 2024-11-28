@@ -134,14 +134,12 @@ textarea {
   align-self: end;
 }
 
-.hero-img-h2,
 .hero-img-h3 {
   background: rgb(255, 255, 255);
   padding: 10px 15px;
-  font-size: 14px;
+  font-size: 15px;
 }
 
-.hero-img-h2 span,
 .hero-img-h3 span {
   color: #9a2018;
   font-size: 12px;
@@ -294,12 +292,12 @@ textarea {
   padding-bottom: 30px;
 }
 
-#faq-con h2 {
+#faq-con h3 {
   font-size: 24px;
   margin-bottom: 20px;
 }
 
-#faq-con h2 span {
+#faq-con h3 span {
   color: #9a2018;
   font-size: 16px;
 }
@@ -308,10 +306,10 @@ textarea {
   margin-bottom: 16px;
 }
 
-.faq-items h3 {
+.faq-items h4 {
   background: #e8e7e7;
   padding: 16px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .faq-items ul {
@@ -429,4 +427,212 @@ textarea {
   margin-bottom: 20px;
   line-height: 18px;
   font-size: 11px;
+}
+
+/* Room Compare page styling */
+/* 3. ---Main Hero Image--- */
+
+#hero {
+  background: url(../images/mob_room_hero-01.jpg) no-repeat;
+}
+
+/* Intoro Room style */
+.room-con {
+  margin-top: 50px;
+}
+
+.room-con:first-child {
+  margin-top: 20px;
+}
+
+.room-con h3 {
+  color: #cf6666;
+  text-align: center;
+  margin: 10px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+.room-con p span {
+  display: block;
+  font-size: 13px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.room-con .book-now {
+  width: 277px;
+  height: 50px;
+  margin: 10px auto;
+}
+
+.room-con a {
+  display: block;
+  color: #cf6666;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+
+/* Chateaus page Styling */
+#chateaus-hero img {
+  margin: auto;
+}
+
+#chateaus-hero h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #c54242;
+}
+
+#chateaus-hero p {
+  font-size: 13px;
+}
+
+#chateaus-feature {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+  justify-content: space-around;
+  margin: 30px 0;
+  border-top: 1px solid #c54242;
+  border-bottom: 1px solid #c54242;
+  padding: 10px 0;
+}
+#chateaus-feature div {
+  width: 120.66px;
+  text-align: center;
+  border-right: 1px solid #c54242;
+}
+
+#chateaus-feature div:last-child {
+  border: 0;
+}
+
+#chateaus-feature p {
+  font-size: 11px;
+}
+
+#book-now {
+  height: 50px;
+}
+
+#equipments h3 {
+  margin-top: 50px;
+  padding-left: 5px;
+  border-left: 3px solid #9a2018;
+}
+
+#equipments {
+  background-color: #efefef;
+  margin: 40px 0;
+}
+
+#equipments h3 {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.equipments-list ul {
+  margin-top: 10px;
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.hidden-equipments-list ul {
+  padding-left: 15px;
+  margin-top: 0;
+}
+
+.equipments-list ul li,
+.hidden-equipments-list ul li {
+  margin: 10px;
+}
+
+#equipments details summary {
+  text-align: center;
+  color: #c54242;
+  padding-bottom: 15px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+#equipments details[open] summary {
+  visibility: hidden;
+  display: none;
+  padding-bottom: 0;
+}
+
+#gallary {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+#arrow {
+  display: flex;
+  justify-content: end;
+  margin: 10px 20px;
+}
+
+#arrow div {
+  margin: 0 10px;
+  color: #9a2018;
+  border: 1px solid #9a2018;
+  border-radius: 500px;
+  padding: 4px 7px;
+}
+
+/* Holiday Special Desktop stying */
+#desk-outline {
+  outline: 20px solid #333;
+  max-width: 1200px;
+  margin: 20px auto 20px auto;
+  border-radius: 10px;
+}
+
+#main-header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  height: 100px;
+}
+
+#logo {
+  display: flex;
+  width: 300px;
+  margin-top: 20px;
+}
+
+#desk_main-nav ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0 0 0 25px;
+  border-left: 3px solid #626262;
+}
+
+#desk_main-nav ul li {
+  margin: 15px;
+}
+
+#desk_main-nav ul li a {
+  color: #626262;
+}
+
+.book-now p {
+  padding: 0 50px;
+  text-align: center;
+}
+
+#desk_book-now-hero {
+  height: 100px;
 }
