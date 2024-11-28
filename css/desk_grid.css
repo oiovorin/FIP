@@ -15,8 +15,8 @@ h5 {
 
 .grid-con {
   display: grid;
-  grid-template-columns: repeat(12, 73px);
-  column-gap: 30px;
+  grid-template-columns: repeat(12, 80px);
+  column-gap: 15px;
   max-width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
@@ -63,6 +63,9 @@ h5 {
 .col-span-11 {
   grid-column: span 11 / span 11;
 }
+.col-span-12 {
+  grid-column: span 12 / span 12;
+}
 
 .col-span-full {
   grid-column: 1 / -1;
@@ -100,4 +103,7 @@ h5 {
 }
 .col-start-11 {
   grid-column-start: 11;
+}
+.col-start-12 {
+  grid-column-start: 12;
 }

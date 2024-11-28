@@ -2,20 +2,22 @@
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  height: 100px;
 }
 
 #logo {
   display: flex;
-  align-items: center;
-  margin-bottom: 20px;
   width: 300px;
-  z-index: 1;
+  margin-top: 20px;
 }
 
 #desk_main-nav ul {
   list-style-type: none;
   display: flex;
-  padding: 0;
+  padding: 0 0 0 25px;
+  border-left: 3px solid #626262;
 }
 
 #desk_main-nav ul li {
@@ -23,8 +25,14 @@
 }
 
 #desk_main-nav ul li a {
-  text-align: center;
   color: #626262;
 }
 
-#book-now
+.book-now p {
+  padding: 0 50px;
+  text-align: center;
+}
+
+#desk_book-now-hero {
+  height: 100px;
+}
