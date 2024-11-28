@@ -620,7 +620,8 @@ textarea {
   border-left: 3px solid #626262;
 }
 
-#desk_main-nav ul li {
+#desk_main-nav ul li,
+#offer-nav ul li {
   margin: 15px;
 }
 
@@ -641,4 +642,61 @@ textarea {
   font-size: 16px;
   line-height: 25px;
   margin: 20px 30px;
+}
+
+#hero-img-con {
+  background-image: url(../images/desk_Xmas_hero-01.jpg);
+  height: 450px;
+}
+
+#hero-offer {
+  background-color: #ffffff;
+  border: 5px solid #9a2018;
+  width: 380px;
+  height: 270px;
+  padding: 30px 50px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+#hero-offer > h3, #hero-offer > h4 {
+  font-family: "DM Serif Display", serif;
+font-weight: bold;
+}
+
+#hero-offer > h3 {
+  font-size: 60px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  color: #c54242;
+}
+
+#hero-offer > h4 {
+  font-size: 75px;
+  margin-bottom: 30px;
+  color: #9a2018;
+}
+
+#hero-offer > p:first-child {
+  font-size: 16px;
+}
+
+#hero-offer > p:last-child {
+  font-size: 9px;
+}
+
+#offer-nav ul {
+  padding-left: 5px;
+  margin-bottom: 30px;
+}
+
+#offer-nav ul li {
+  display: inline;
+}
+
+#offer-nav ul li:first-child {
+  margin-left: 0;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #9a2018;
 }

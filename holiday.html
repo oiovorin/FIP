@@ -7,6 +7,8 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap"
       rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
     <script
       src="https://kit.fontawesome.com/d0e8431583.js"
       crossorigin="anonymous"
@@ -43,33 +45,35 @@
       </header>
 
       <main>
-        <img src="images/desk_Xmas_hero-01.jpg" alt="christmas gift hero image of holiday package page">
-        <div class="desk_grid-con">
-          <!-- style with abusolute -->
-          <div id="hero-offer">
+        <div id="hero-img-con" class="desk_grid-con">
+          <div id="hero-offer" class="col-start-5">
             <h2 class="hidden">Christmas offer ad</h2>
             <p>Christmas Special Offer</p>
             <h3>Stay 3</h3>
-            <h3>pay 2</h3>
+            <h4>pay 2</h4>
             <p>This offer applies to individual bookings only and cannot be combined with any other existing offers, promotions, or discounts valid for a specific period of time.</p>
           </div>
-         <section id="hero-heading-box" class="col-span-full">
+          
+         <section id="hero-heading-box" class="col-start-2 col-span-5">
           <h3 class="hero-img-h3">
             <span>Couples Resort</span><br>
             5 Star, Luxury Couples Resort &amp; Spa
           </h3>
          </section>
-          <section id="hero-summary" class="col-span-full line-separator">
+        </div>
+        <div class="desk_grid-con">
+          <section id="hero-summary" class="col-start-2 col-span-10 line-separator">
             <h2 class="hidden">Summary of our Facilities</h2>
             <p>
               Escape to a romantic haven this holiday season and make unforgettable memories with our Romantic Christmas Getaway Packages. Relax in beautifully decorated rooms filled with festive charm, perfect for cozy evenings with your loved one. Enjoy a delightful candlelit Christmas dinner, complete with fine wine and enchanting live music to set the mood.
               Indulge in rejuvenating spa treatments infused with seasonal scents like peppermint and cinnamon, designed to leave you refreshed and glowing. Capture the magic of your stay with a complimentary professional photo session, creating timeless memories to cherish. Stroll through our festively adorned grounds or simply enjoy the peace of a private retreat for two.
             </p>
             </section>
+            </div>
 
-            <div>
+            <div class="desk_grid-con">
               <h2 class="hidden">Christmas package Navigation</h2>
-              <nav id="offer-nav">
+              <nav id="offer-nav" class="col-start-2 col-span-11">
                 <ul>
                   <li>Special Package offer</li>
                   <li>Candlelit Christmas Dinner</li>
@@ -79,12 +83,13 @@
               </nav>
             </div>
             <!-- style with flex box here -->
-            <section class="col-span-full">
+             <section class="desk_grid-con">
+              <div class="col-start-2">
               <h2 class="hidden">Christmas Package summary</h2>
-              <div>
                 <img src="images/desk_Xmas_gal-01.jpg" alt="image of christmas gift">
-              </div>
-              <div>
+                </div>
+
+              <div class="col-start-7 col-span-6">
                 <h3>Christmas Package Includes:</h3>
                 <ul>
                   <li>Stay 3 nights, Pay for only 2</li>
@@ -96,6 +101,7 @@
                 </ul>
                 <p>Celebrate Christmas with a romantic 3-night getaway for the price of 2! Enjoy beautifully decorated rooms, a candlelit Christmas dinner, and relaxing spa treatments. This limited-time offer is perfect for couples looking to unwind and connect while enjoying festive activities. Available for individual bookings during the holiday period—don't miss out!</p>
               </div>
+
             </section>
 
             <section class="col-span-full">
@@ -135,7 +141,7 @@
                 <p class="learnmore">Learn More</p>
               </div>
             </section>
-          </div>
+          
        </main>
 
        <footer id="desk_footer-hero" class="desk_grid-con">

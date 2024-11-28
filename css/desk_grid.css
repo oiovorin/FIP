@@ -15,8 +15,8 @@ h5 {
 
 .desk_grid-con {
   display: grid;
-  grid-template-columns: repeat(12, 80px);
-  column-gap: 15px;
+  grid-template-columns: repeat(12, 79px);
+  column-gap: 20px;
   max-width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
