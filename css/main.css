@@ -592,6 +592,40 @@ textarea {
   padding: 4px 7px;
 }
 
+/* winter activities styling */
+#winter_hero {
+  background: url(../images/mob_winter_hero-01.jpg);
+  height: 210px;
+}
+
+#winter_section-01 {
+  background: url(../images/mob_winter_sec-01.jpg);
+  height: 210px;
+}
+
+#winter-sec-01-heading-box,
+#winter-sec-02-heading-box,
+#winter-sec-03-heading-box,
+#winter-sec-04-heading-box {
+  align-self: end;
+}
+
+#winter_section-02 {
+  background: url(../images/mob_winter_sec-02.jpg);
+  height: 210px;
+}
+
+#winter_section-03 {
+  background: url(../images/mob_winter_sec-03.jpg);
+  height: 210px;
+}
+
+#winter_section-04 {
+  background: url(../images/mob_winter_sec-04.jpg);
+  height: 210px;
+}
+
+
 /* Holiday Special Desktop stying */
 #desk-outline {
   outline: 20px solid #333;
