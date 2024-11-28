@@ -13,7 +13,7 @@ h5 {
   display: none;
 }
 
-.grid-con {
+.desk_grid-con {
   display: grid;
   grid-template-columns: repeat(12, 80px);
   column-gap: 15px;
