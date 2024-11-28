@@ -30,11 +30,12 @@
             <h2 class="hidden">Main Navigation</h2>
             <ul>
               <li><a href="index.html">Home</a></li>
-              <li><a href="#">Rooms</a></li>
+              <li><a href="Compare-RM.html">Rooms</a></li>
               <li><a href="#">Packages</a></li>
               <li><a class="selected" href="dining.html">Dining</a></li>
               <li><a href="#">Spa Activites</a></li>
               <li><a href="#">Reservations</a></li>
+              <li><a href="holiday.html">Holiday</a></li>
             </ul>
           </nav>
         </div>
@@ -83,14 +84,14 @@
               </nav>
             </div>
             <!-- style with flex box here -->
-             <section class="desk_grid-con">
+             <section class="offer-info desk_grid-con">
               <div class="col-start-2">
-              <h2 class="hidden">Christmas Package summary</h2>
+               <h2 class="hidden">Christmas Package summary</h2>
                 <img src="images/desk_Xmas_gal-01.jpg" alt="image of christmas gift">
-                </div>
+              </div>
 
-              <div class="col-start-7 col-span-6">
-                <h3>Christmas Package Includes:</h3>
+              <div class="col-start-7 col-span-5">
+                <h3 class="odd_h3">Christmas Package Includes:</h3>
                 <ul>
                   <li>Stay 3 nights, Pay for only 2</li>
                   <li>Festive extras upon arrival</li>
@@ -99,73 +100,114 @@
                   <li>$20 credits that is available with our resort</li>
                   <li>Discount for Photo session</li>
                 </ul>
-                <p>Celebrate Christmas with a romantic 3-night getaway for the price of 2! Enjoy beautifully decorated rooms, a candlelit Christmas dinner, and relaxing spa treatments. This limited-time offer is perfect for couples looking to unwind and connect while enjoying festive activities. Available for individual bookings during the holiday period—don't miss out!</p>
+                <p>Celebrate Christmas with a romantic 3-night getaway for the price of 2! Enjoy beautifully decorated rooms, a candlelit Christmas dinner, and relaxing spa treatments. This limited-time offer is perfect for couples looking to unwind and connect while enjoying festive activities. Available for individual bookings during the holiday period.</p>
               </div>
 
             </section>
 
-            <section class="col-span-full">
+            <section class="offer-info desk_grid-con">
               <h2 class="hidden">About Candlelit Dinner</h2>
-              <div>
-                <h3>Candlelit Christmas Dinner</h3>
+              <div class="col-start-2 col-span-5">
+                <h3 class="even_h3">Candlelit Christmas Dinner</h3>
                 <p>Experience a magical evening with a romantic, candlelit Christmas dinner. Indulge in a festive multi-course meal, crafted with seasonal flavors and paired with fine wine. Enjoy the warm ambiance created by soft candlelight and live music, making this intimate dining experience perfect for couples. Let us make your holiday celebration unforgettable with a dinner that's as enchanting as the season itself.</p>
-                <p class="learnmore">Learn More</p>
+                <p class="learnmore"><span>Learn More</span></p>
               </div>
-              <div>
+              <div class="col-start-7 col-span-5">
                 <img src="images/desk_Xmas_gal-02.jpg" alt="image of christmas gift">
               </div>
             </section>
 
-            <section class="col-span-full">
+            <section class="offer-info desk_grid-con">
               <h2 class="hidden">About Spa Retreat</h2>
-              <div>
+              <div class="col-start-2 col-span-5">
                 <img src="images/desk_Xmas_gal-03.jpg" alt="image of christmas gift">
               </div>
-              <div>
-                <h3>Christmas Spa Retreat</h3>
+              <div class="col-start-7 col-span-5">
+                <h3 class="odd_h3">Christmas Spa Retreat</h3>
                 <p>Relax and rejuvenate with exclusive discounts on our holiday spa treatments. Enjoy seasonal scents like peppermint and cinnamon, designed to refresh and unwind. Perfect for couples looking to de-stress and indulge in a luxurious spa experience during the holiday season.</p>
-                <!-- add drop down menu here -->
+                <div id="dropdown-menu">
+                 <details>
+                  <summary>Availability</summary>
+                  <ul>
+                    <li>Registered Massage Therapy</li>
+                    <li>Relaxing Body Molding Treatment</li>
+                    <li>Ayurveda Indian Head Massage</li>
+                    <li>Scrub, Wrap and Facial in the Spa</li>
+                  </ul>
+                  </details>
+                <details>
+                  <summary>Discount Policy</summary>
+                  Holiday spa discounts are exclusively available to resort guests, require advance reservations, cannot be combined with other promotions, and must be redeemed during the festive season for eligible treatments.
+                </details>
+                </div>
               </div>
             </section>
 
-            <section class="col-span-full">
+            <section class="offer-info desk_grid-con">
               <h2 class="hidden">About Photo Session</h2>
-              <div>
-                <img src="images/desk_Xmas_gal-04.jpg" alt="image of christmas gift">
-              </div>
-              <div>
-                <h3>Holiday Photograph Session</h3>
+              <div class="col-start-2 col-span-5">
+                <h3 class="even_h3">Holiday Photograph Session</h3>
                 <p>Capture the magic of your Christmas getaway with an exclusive photo session by a local professional photographer. Take advantage of a special discount for couples and create lasting memories with beautiful, festive photos. Let us help you preserve these cherished moments against the enchanting backdrop of our resort.</p>
                 <p>Photographer: Emily Rose</p>
-                <p>*Reservations for the photo session are required in advance to secure your spot.</p>
-                <p class="learnmore">Learn More</p>
+                <p class="caution"><span>*Reservations for the photo session are required in advance.</span></p>
+                <p class="learnmore"><span>Learn More</span></p>
+              </div>
+              <div class="col-start-7 col-span-5">
+                <img src="images/desk_Xmas_gal-04.jpg" alt="image of christmas gift">
               </div>
             </section>
           
        </main>
 
-       <footer id="desk_footer-hero" class="desk_grid-con">
-        <section id="footer-contact-info" class="col-span-full">
-          <h3>Couples Resort</h3>
-          <p>
-            1198 Osprey Rd, (End of)<br>
-            Minden, Soyers Lake, ON, <br>
-            K0M 2K0
-          </p>
-          <p>
-            Toll Free:+1 877 201-1156<br>
-            FAX:+1 613 638 2217<br>
-            E-mail: info@coupleresort.com
-          </p>
+       <footer id="desk_footer-hero">
+        <section id="desk_footer-contact-info" class="desk_grid-con">
+          <div class="col-start-2 col-span-3">
+           <h2>Couples Resort</h2>
+           <h3 class="hidden">location</h3>
+           <p>
+             1198 Osprey Rd, (End of)<br>
+             Minden, Soyers Lake, ON, <br>
+             K0M 2K0
+           </p>
+           <h3 class="hidden">contact info</h3>
+           <p>
+             Toll Free:+1 877 201-1156<br>
+             FAX:+1 613 638 2217<br>
+             E-mail: info@coupleresort.com
+           </p>
+         </div>
+
+          <div id="desk_footer-nav" class="col-start-5">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Compare-RM.html">Rooms</a></li>
+              <li><a href="#">Packages</a></li>
+              <li><a class="selected" href="dining.html">Dining</a></li>
+            </ul>
+            </div>
+            <div id="desk_footer-nav-2" class="col-start-6 col-span-3">
+            <ul>
+              <li><a href="#">Spa</a></li>
+              <li><a href="#">Activites</a></li>
+              <li><a href="#">Reservations</a></li>
+              <li><a href="holiday.html">Holiday Special</a></li>
+            </ul>
+            </div>
+          <h2 class="hidden">Book a stay with us</h2>
+        <div id="desk_footer_book-now-hero" class="book-now col-start-9 col-span-3">
+          <p>Book Now</p>
+        </div>
         </section>
-        <div id="footer-privacy" class="col-span-full line-separator">
-          <p id="price-policy">
+        <div class="desk_grid-con">
+        <div id="desk_footer-privacy" class="col-start-2 col-span-10 line-separator">
+          <p>
             All prices and services on this website and in our reservation
             system are based on conditions at the time of publishing and are
             subject to change. Please call to confirm services, availability and
             pricing. ©2013 Couples Resort Inc. All Rights Reserved. Privacy
             Policy
           </p>
+        </div>
         </div>
        </footer>
     </div>
