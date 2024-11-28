@@ -21,7 +21,7 @@ Couples Resort Responsive Build
 #mobile-outline {
   outline: 20px solid #333;
   max-width: 412px;
-  margin: 20px auto 20px auto;
+  margin: 20px auto;
   border-radius: 10px;
 }
 
@@ -80,7 +80,7 @@ textarea {
 
 #main-nav ul li a {
   display: block;
-  padding: 10px 0 10px 0;
+  padding: 10px 0;
   text-align: center;
   color: #626262;
 }
@@ -109,7 +109,7 @@ textarea {
   height: 200px;
 }
 
-.book-now {
+.book-now, .desk_header_book-now {
   background-color: #9a2018;
   color: #fff;
   font-size: 16px;
@@ -122,7 +122,7 @@ textarea {
   cursor: pointer;
 }
 
-.book-now:hover {
+.book-now:hover, .desk_header_book-now:hover, .desk_footer_book-now:hover {
   background-color: rgb(196, 28, 28);
 }
 
@@ -159,14 +159,14 @@ textarea {
 
 /* 4. ---Main Hero Image Contact--- */
 
-.fa-thin {
+.fas {
   font-size: 42px;
   color: #9a2018;
   margin: 0 auto;
   float: left;
 }
 
-.fa-bed {
+.fa-mobile-alt {
   margin-right: 10px;
   margin-left: 3px;
   margin-bottom: 20px;
@@ -432,8 +432,9 @@ textarea {
 /* Room Compare page styling */
 /* 3. ---Main Hero Image--- */
 
-#hero {
+#compare_room_hero {
   background: url(../images/mob_room_hero-01.jpg) no-repeat;
+  height: 210px;
 }
 
 /* Intoro Room style */
@@ -477,8 +478,9 @@ textarea {
 
 
 /* Chateaus page Styling */
-#chateaus-hero img {
-  margin: auto;
+#Chateaus_hero {
+  background: url(../images/mob_chateaus-01.jpg) no-repeat;
+  height: 210px;
 }
 
 #chateaus-hero h3 {
@@ -598,7 +600,7 @@ textarea {
   border-radius: 10px;
 }
 
-#main-header {
+#desk_main-header {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -607,10 +609,10 @@ textarea {
   height: 100px;
 }
 
-#logo {
+#desk_logo {
   display: flex;
   width: 300px;
-  margin-top: 20px;
+  margin-left: 10px;
 }
 
 #desk_main-nav ul {
@@ -620,7 +622,8 @@ textarea {
   border-left: 3px solid #626262;
 }
 
-#desk_main-nav ul li {
+#desk_main-nav ul li,
+#offer-nav ul li {
   margin: 15px;
 }
 
@@ -628,7 +631,7 @@ textarea {
   color: #626262;
 }
 
-.book-now p {
+.desk_header_book-now p {
   padding: 0 50px;
   text-align: center;
 }
@@ -641,4 +644,209 @@ textarea {
   font-size: 16px;
   line-height: 25px;
   margin: 20px 30px;
+}
+
+#hero-img-con {
+  background-image: url(../images/desk_Xmas_hero-01.jpg);
+  height: 450px;
+}
+
+#hero-offer {
+  background-color: #ffffff;
+  border: 5px solid #9a2018;
+  width: 380px;
+  height: 270px;
+  padding: 30px 50px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+#hero-offer > h3, #hero-offer > h4 {
+  font-family: "DM Serif Display", serif;
+font-weight: bold;
+}
+
+#hero-offer > h3 {
+  font-size: 60px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  color: #c54242;
+}
+
+#hero-offer > h4 {
+  font-size: 75px;
+  margin-bottom: 30px;
+  color: #9a2018;
+}
+
+#hero-offer > p:first-child {
+  font-size: 16px;
+}
+
+#hero-offer > p:last-child {
+  font-size: 9px;
+}
+
+#offer-nav ul {
+  padding-left: 5px;
+  margin-bottom: 30px;
+}
+
+#offer-nav ul li {
+  display: inline;
+  cursor: pointer;
+}
+
+#offer-nav ul li:first-child {
+  margin-left: 0;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #9a2018;
+}
+
+.offer-info {
+  margin-bottom: 200px;
+}
+
+.offer-info div > h3 {
+  font-size: 30px;
+  font-family: "DM Serif Display", serif;
+}
+
+.odd_h3 {
+  color: #005B18;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.even_h3 {
+  color: #9a2018;
+  margin: 10px 30px 20px 20px;
+}
+
+.offer-info div ul li {
+  margin: 5px 0 10px 0;
+}
+
+.offer-info div ul li::marker {
+  color: #005B18
+}
+
+.offer-info div > p {
+  font-size: 16px;
+  line-height: 25px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.learnmore span {
+  font-size: 18px;
+  color: #9a2018;
+  border: 2px solid #9a2018;
+  padding: 20px 80px;
+  text-align: center;
+  margin-left: 80px;
+  margin-top: 15px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.learnmore span:hover {
+  font-size: 18px;
+  color: #fff;
+  background-color: #9a2018;
+  padding: 20px 80px;
+  text-align: center;
+  margin-left: 80px;
+  margin-top: 15px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.caution span {
+  font-size: 13px;
+}
+
+#desk_footer-hero {
+  background-image: url(../images/desk_foot.jpg);
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 40px;
+  padding-bottom: 80px;
+}
+
+
+#desk_footer-hero h2 {
+  font-size: 32px;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+
+#desk_footer-contact-info p {
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+#desk_footer-nav ul,
+#desk_footer-nav-2 ul {
+  list-style-type: none;
+  margin-top: 40px;
+}
+
+#desk_footer-nav-2 ul {
+  margin-left: 30px;
+}
+
+#desk_footer-nav ul li,
+#desk_footer-nav-2 ul li {
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+#desk_footer-nav ul li a,
+#desk_footer-nav-2 ul li a {
+  color: #fff;
+}
+
+#desk_footer-privacy p {
+  font-size: 14px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+#desk_footer_book-now-hero {
+  height: 115px;
+  margin-top: 50px;
+}
+
+#desk_footer_book-now-hero > p {
+  font-size: 23px;
+}
+
+
+.desk_footer_book-now {
+  background-color: #9a2018;
+  color: #fff;
+  transition: background-color 500ms linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  padding-top: 15px;
+}
+
+summary {
+  color: #505050;
+  background-color: #D9D9D9;
+  font-size: 20px;
+  padding: 15px 25px;
+  margin: 10px 0;
+}
+
+#dropdown-menu details:first-child {
+  margin-top: 30px;
 }
