@@ -46,6 +46,10 @@ textarea {
   color: #9a2018;
 }
 
+.cr-secondary-red {
+  color: #c54242;
+}
+
 /* 2. ---Main Nav--- */
 
 #main-nav label img {
@@ -136,8 +140,8 @@ textarea {
 
 .hero-img-h3 {
   background: rgb(255, 255, 255);
-  padding: 10px 15px;
-  font-size: 15px;
+  padding: 8px 15px;
+  font-size: 16px;
 }
 
 .hero-img-h3 span {
@@ -533,6 +537,7 @@ textarea {
 #equipments {
   background-color: #efefef;
   margin: 40px 0;
+  padding-bottom: 15px;
 }
 
 #equipments h3 {
@@ -541,9 +546,8 @@ textarea {
 }
 
 .equipments-list ul {
-  margin-top: 10px;
+  margin: 15px 0;
   padding-left: 15px;
-  margin-bottom: 0;
 }
 
 .hidden-equipments-list ul {
@@ -551,9 +555,9 @@ textarea {
   margin-top: 0;
 }
 
-.equipments-list ul li,
-.hidden-equipments-list ul li {
+.equipments-list ul li {
   margin: 10px;
+  font-size: 14px;
 }
 
 #equipments details summary {
@@ -574,23 +578,45 @@ textarea {
 
 #gallary {
   display: flex;
+}
+
+#gallary-img {
+  display: flex;
   justify-content: center;
   margin-top: 15px;
 }
 
-#arrow {
-  display: flex;
-  justify-content: end;
-  margin: 10px 20px;
+#gallary-button p {
+  font-size: 14px;
+  padding-left: 10px;
+  line-height: 23px;
+  margin-top: 10px;
 }
 
-#arrow div {
-  margin: 0 10px;
+#arrow {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#arrow p {
+  margin: 20px 10px 0 10px;
+  text-align: center;
   color: #9a2018;
   border: 1px solid #9a2018;
   border-radius: 500px;
   padding: 4px 7px;
+  cursor: pointer;
 }
+
+#arrow p:hover {
+  color: #fff;
+  background-color: #9a2018;
+}
+
+#arrow div:last-child {
+  margin-right: 15px;
+}
+
 
 /* winter activities styling */
 #winter_hero {
@@ -603,10 +629,7 @@ textarea {
   height: 210px;
 }
 
-#winter-sec-01-heading-box,
-#winter-sec-02-heading-box,
-#winter-sec-03-heading-box,
-#winter-sec-04-heading-box {
+.winter-sec-heading-box {
   align-self: end;
 }
 
@@ -625,7 +648,50 @@ textarea {
   height: 210px;
 }
 
+#activities-nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+#activities-nav ul li {
+  margin: 10px 0;
+  padding-left: 5px;
+}
+#activities-nav ul li:first-child {
+  border-left: 5px solid #9a2018;
+}
 
+.activities p {
+font-size: 14px;
+}
+
+.activities h4{
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.activities img {
+  margin-bottom: 15px;
+}
+
+.activities ol,
+.activities ul {
+  padding-left: 17px;
+  margin-top: 8px;
+}
+
+.activities ol li,
+.activities ul li {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.activities {
+  margin-bottom: 50px;
+}
+
+.space {
+  margin-bottom: 10px;
+}
 /* Holiday Special Desktop stying */
 #desk-outline {
   outline: 20px solid #333;
@@ -674,7 +740,18 @@ textarea {
   height: 100px;
 }
 
-#hero-summary p {
+.desk_hero-img-h3 {
+background: rgb(255, 255, 255);
+padding: 8px 15px;
+font-size: 18px;
+}
+
+.desk_hero-img-h3 span {
+  color: #9a2018;
+  font-size: 14px;
+}
+
+#desk_hero-summary p {
   font-size: 16px;
   line-height: 25px;
   margin: 20px 30px;
