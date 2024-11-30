@@ -151,7 +151,7 @@ textarea {
 
 .line-separator {
   margin-top: 20px;
-  border-top: solid 3px #cf6666;
+  border-top: solid 2px #cf6666;
   padding-top: 20px;
 }
 
@@ -340,7 +340,7 @@ textarea {
 /* 7. ---Contact--- */
 
 #contact-hero-con {
-  background: url(../images/contact-hero.jpg);
+  background: url(../images/contact-hero.jpg) no-repeat;
   height: 195px;
 }
 
@@ -387,7 +387,8 @@ textarea {
   height: 250px;
 }
 
-#contact-hero-form input[type="submit"] {
+#contact-hero-form input[type="submit"],
+#chateaus-book input[type="submit"] {
   padding: 12px 28px;
   background: #9a2018;
   color: #fff;
@@ -506,8 +507,6 @@ textarea {
   flex: 1 0 auto;
   justify-content: space-around;
   margin: 30px 0;
-  border-top: 1px solid #c54242;
-  border-bottom: 1px solid #c54242;
   padding: 10px 0;
 }
 #chateaus-feature div {
@@ -521,11 +520,8 @@ textarea {
 }
 
 #chateaus-feature p {
-  font-size: 11px;
-}
-
-#book-now {
-  height: 50px;
+  font-size: 10px;
+  margin-top: 5px;
 }
 
 #equipments h3 {
@@ -536,7 +532,7 @@ textarea {
 
 #equipments {
   background-color: #efefef;
-  margin: 40px 0;
+  margin-bottom: 40px;
   padding-bottom: 15px;
 }
 
@@ -560,24 +556,55 @@ textarea {
   font-size: 14px;
 }
 
-#equipments details summary {
-  text-align: center;
-  color: #c54242;
-  padding-bottom: 15px;
-  font-size: 13px;
-  letter-spacing: 1px;
-  list-style-type: none;
-  cursor: pointer;
-}
 
-#equipments details[open] summary {
-  visibility: hidden;
-  display: none;
-  padding-bottom: 0;
-}
-
-#gallary {
+#agreement {
   display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  gap: 3px;
+}
+
+#select-date {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#select-date div {
+  margin: 20px 40px;
+  color: #9a2018;
+  text-align: center;
+}
+
+#select-date div p span {
+  color: #626262;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.date {
+  font-size: 23px;
+  padding: 3px 0;
+}
+
+#agreement input[type="checkbox"]:checked + span::after {
+  content: "⭐";
+  margin-left: 5px;
+}
+
+
+#chateaus-book input[type="submit"] {
+  margin-top: 10px;
+  animation: scaledown 0.3s ease 2;
+}
+
+@keyframes scaledown {
+  0% {transform: scale(1);}
+  50% {transform: scale(0.7);}
+  100% {transform: scale(1);}
+}
+
+#chateaus-book {
+  margin-bottom: 30px;
 }
 
 #gallary-img {
@@ -620,12 +647,12 @@ textarea {
 
 /* winter activities styling */
 #winter_hero {
-  background: url(../images/mob_winter_hero-01.jpg);
+  background: url(../images/mob_winter_hero-01.jpg) no-repeat;
   height: 210px;
 }
 
 #winter_section-01 {
-  background: url(../images/mob_winter_sec-01.jpg);
+  background: url(../images/mob_winter_sec-01.jpg) no-repeat;
   height: 210px;
 }
 
@@ -634,17 +661,17 @@ textarea {
 }
 
 #winter_section-02 {
-  background: url(../images/mob_winter_sec-02.jpg);
+  background: url(../images/mob_winter_sec-02.jpg) no-repeat;
   height: 210px;
 }
 
 #winter_section-03 {
-  background: url(../images/mob_winter_sec-03.jpg);
+  background: url(../images/mob_winter_sec-03.jpg) no-repeat;
   height: 210px;
 }
 
 #winter_section-04 {
-  background: url(../images/mob_winter_sec-04.jpg);
+  background: url(../images/mob_winter_sec-04.jpg) no-repeat;
   height: 210px;
 }
 
@@ -705,6 +732,7 @@ font-size: 14px;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
+  max-width: 1200px;
   margin: 0;
   height: 100px;
 }
@@ -758,7 +786,7 @@ font-size: 18px;
 }
 
 #hero-img-con {
-  background-image: url(../images/desk_Xmas_hero-01.jpg);
+  background: url(../images/desk_Xmas_hero-01.jpg) no-repeat;
   height: 450px;
 }
 
@@ -879,7 +907,7 @@ font-weight: bold;
 }
 
 #desk_footer-hero {
-  background-image: url(../images/desk_foot.jpg);
+  background-image: url(../images/desk_foot.jpg) no-repeat;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 14px;

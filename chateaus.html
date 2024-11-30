@@ -52,13 +52,15 @@
         <div id="book-now-hero" class="book-now col-start-3 col-span-2">
           <p>Book Now</p>
         </div>
-        <section id="hero-heading-box" class="col-span-full">
+        
+        <section id="hero-heading-box" class="col-start-1 col-span-2">
           <h3 class="hero-img-h3">
             <span>Couples Resort</span><br>
             Chateaus
           </h3>
         </section>
-      </section>
+        </section>
+      
 
 
       <div class="grid-con">
@@ -102,9 +104,10 @@
             <p>2 SIDED FIREPLACE</p>
           </div>
         </section>
-        <div id="book-now" class="book-now col-start-2 col-span-2">
+        <!--
+        <div id="book-now" class="book-now col-start-3 col-span-2">
           <p>Book Now</p>
-        </div>
+        </div>-->
       </div>
 
       <div class="grid-con">
@@ -129,10 +132,37 @@
             </ul>
           </div>
         </section>
+        <section id="cheateaus-book" class="grid-con">
+          <h2 class="hidden">make a reservation</h2>
+          <div id="select-date" class="col-span-full">
+          <div>
+            <p>from</p>
+              <p><span>&#x25B2;</span></p>
+             <p class="date">Dec 13</p>
+             <p><span>&#x25BC;</span></p>
+          </div>
+          <div>
+            <p>to</p>
+              <p><span>&#x25B2;</span></p>
+             <p class="date">Dec 15</p>
+             <p><span>&#x25BC;</span></p>
+          </div>
+          </div>
+          <div class="col-span-full">
+           <div id="agreement">
+            <input type="checkbox" id="policy-checkbox"><span></span>
+            <label for="policy-checkbox">You confirm that you have read and agree to our policy</label>
+              </div>
+          </div>
+          <div id="chateaus-book" class="col-start-3 coll-span-2">
+          <input name="submit" type="submit" value="Book Now">
+          </div>
+          </section>
+
 
 
       <!-- other room gallary -->
-      <div class="grid-con">
+      <div class="grid-con col-span-full">
         <section id="hero-heading-box2" class="col-span-full">
           <h3 class="hero-img-h3">
             <span>Couples Resort</span><br>
@@ -140,9 +170,9 @@
           </h3>
         </section>
       </div>
-      <section id="gallary" class="grid-con col-span-full">
+      <section id="gallary" class="col-span-full">
         <h2 class="hidden">Other Room gallary</h2>
-      <div id="gallary-img">
+      <div id="gallary-img" class="col-span-full">
         <img src="images/mob_gal-01.jpg" alt="hero photo of villas">
       </div>
       </section>
@@ -154,8 +184,6 @@
         <div><p>←</p></div>
         <div><p>→</p></div>
         </div>
-
-      
       </div>
     </main>
       <!-- now the arrow is on the image -->
