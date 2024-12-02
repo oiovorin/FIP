@@ -1,5 +1,6 @@
 # Morito Rin FIP
-**1051 Desin&Image / 1053 Visual Communication**
+![wireframe of chateaus page](images/desk_chateaus_wireframe.jpg)
+**1051 Design & Image / 1053 Visual Communication**
 - Redesign Couples Resort web page
 - design 3 mobile and 3 correspond desktop pages
 - Design wireframes with color, font, images, etc.
