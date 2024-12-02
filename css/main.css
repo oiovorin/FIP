@@ -72,7 +72,8 @@ textarea {
 }
 
 #main-nav input,
-#burger-con {
+#burger-con,
+#desk_main-nav input {
   display: none;
 }
 
@@ -109,6 +110,15 @@ textarea {
 
 #main-nav ul li:last-child {
   margin-bottom: 40px;
+}
+
+.hanmenu-dropdown summary {
+  font-size: 16px;
+  background-color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  list-style: none;
+  cursor: pointer;
 }
 
 #logo {
@@ -491,7 +501,7 @@ textarea {
 
 /* Chateaus page Styling */
 #Chateaus_hero {
-  background: url(../images/mob_chateaus-01.jpg) no-repeat;
+  background: url(../images/mob_chateaus_hero-01.jpg) no-repeat;
   height: 210px;
 }
 
@@ -754,8 +764,8 @@ font-size: 14px;
 #desk_main-nav ul {
   list-style-type: none;
   display: flex;
-  padding: 0 0 0 25px;
-  border-left: 3px solid #626262;
+  padding: 0 0 0 15px;
+  border-left: 2px solid #626262;
 }
 
 #desk_main-nav ul li,
@@ -767,6 +777,52 @@ font-size: 14px;
 
 #desk_main-nav ul li a {
   color: #626262;
+}
+
+label {
+  cursor: pointer;
+}
+
+#room-con {
+  display: none;
+  position: absolute;
+  top: 7%;
+  left: 37%;
+  background-color: #fff;
+}
+
+#activities-con {
+  display: none;
+  position: absolute;
+  top: 7%;
+  left: 49%;
+  background-color: #fff;
+}
+
+#room-con ul,
+#activities-con ul {
+  list-style-type: none;
+  border-left: 0 !important;
+}
+
+#room-con ul li,
+#activities-con ul li {
+  font-size: 16px !important;
+  margin: 10px;
+  padding-left: 15px;
+  border-left: 1px solid #626262;
+  text-align: center;
+}
+
+#room-con ul li:first-child,
+#activities-con ul li:first-child {
+  border-left: 0;
+  padding-left: 0;
+}
+
+#desk_main-nav #room:checked ~ #room-con,
+#desk_main-nav #activities:checked ~ #activities-con {
+  display: block;
 }
 
 .desk_header_book-now p {
@@ -988,13 +1044,17 @@ font-weight: bold;
   padding-top: 15px;
 }
 
-summary {
+.holiday summary {
   color: #505050;
   background-color: #D9D9D9;
   font-size: 20px;
   padding: 15px 25px;
   margin: 15px;
   cursor: pointer;
+}
+
+.holiday p {
+  padding-left: 30px;
 }
 
 #dropdown-menu details:first-child {
