@@ -789,15 +789,15 @@ label {
 #room-con {
   display: none;
   position: absolute;
-  top: 7%;
-  left: 37%;
+  top: 10%;
+  left: 29%;
   background-color: #fff;
 }
 
 #activities-con {
   display: none;
   position: absolute;
-  top: 7%;
+  top: 10%;
   left: 49%;
   background-color: #fff;
 }
