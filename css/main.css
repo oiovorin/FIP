@@ -572,14 +572,17 @@ textarea {
 }
 
 #select-date div:first-child {
-  padding-right: 20px;
+  padding-right: 55px;
+  margin-right: 0 !important;
   padding-left: 20px;
+  border-right: 1px solid #626262;
 }
 
 #select-date div {
   margin: 20px 40px;
   color: #9a2018;
   text-align: center;
+  padding-left: 15px;
 }
 
 #select-date div p span {
